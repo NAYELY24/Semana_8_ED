@@ -14,12 +14,12 @@ cliente={"nombre":"juan", "id": 0989. }
 # 3. Interaccion con una persona, un carro y una mascota:
 persona = {"nombre": "juan", "edad": 25}
 carro = {'modelo': 'toyota', 'ani': 2000}
-mascota = {'raza': 'siberiano', 'color': 'cafe'}
+mascota = {'tipo': 'perro', 'raza': 'siberiano', 'color': 'cafe'}
 
-persona1={'nombre': 'juan', 'edad':25, 'modelo': 'toyota', 'ani': 2000, perro: perro, carro: carro}
-pertenencia_persona={'persona' : persona, 'carro': carro, 'perro': perro}
+persona1={'nombre': 'juan', 'edad':25, 'modelo': 'toyota', 'ani': 2000, 'tipo': 'perro', 'raza': 'siberiano', 'color': 'cafe'}
+pertenencia_persona={'persona' : persona, 'carro': carro, 'mascota': mascota}
 # 4. Presentar el color de la mascota de la persona:
-print(pertenencia_persona['perro']['color'])
+print(pertenencia_persona['mascota']['color'])
 
 # 5. Representar una relacion amorosa:
 persona1={'sexo':'masculino','nombre':'pedro','edad':20}
