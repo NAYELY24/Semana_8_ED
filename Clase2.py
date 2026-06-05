@@ -37,9 +37,12 @@ class Local:
         self.direccion=direccion
         self.tiempo_espera=tiempo_espera
         self.tipo=tipo
+
+    def __str__(self):
+        return f'nombre:{self.nombre},direccion:{self.direccion}'
 # Instanciar la clase:
 local3=Local('rukito','aventura plaza',15,'asado')
-
+print(local3)
 class Colaborador:
     def __init__(self, nacionalidad, tipo_vehiculo, nombre):
         self.nacionalidad = nacionalidad
