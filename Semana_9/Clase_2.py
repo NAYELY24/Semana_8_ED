@@ -1,4 +1,11 @@
 #POO
+#Apuntes:
+#Clase: Modelo o Molde de un atributo
+#__init__: Metodo constructor
+#self: Programar dentro de la clase, una forma de representar las caracteristicas
+#Programar sin self: Afuera de la clase
+#__str__: Devuelve objetos de una clase instanciada
+
 #Clases Identicas:
 class asientoCine:
     def __init__(self):
@@ -52,15 +59,5 @@ celular2=celulares(12,3000)
 print(celular2)
 print(f" {celular2.encender()}")
 
-#Ambiente Hospital
-class Hospital:
-    def __init__(self, wroom, rooms, ):
-        self.wroom = True
-        self.rooms = rooms
 
-#Apuntes:
-#Clase: Modelo o Molde de un atributo
-#__init__: Metodo constructor
-#self: Programar dentro de la clase, una forma de representar las caracteristicas
-#Programar sin self: Afuera de la clase
-#__str__: Devuelve objetos de una clase instanciada
+
